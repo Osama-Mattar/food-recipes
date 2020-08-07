@@ -39,6 +39,8 @@ dependencies {
     implementation(LibraryDependency.APP_COMPAT)
     implementation(LibraryDependency.MATERIAL)
     implementation(LibraryDependency.SUPPORT_CONSTRAINT_LAYOUT)
+    implementation(LibraryDependency.COROUTINES_ANDROID)
+    implementation(LibraryDependency.GSON)
     testImplementation(TestLibraryDependency.JUNIT)
     androidTestImplementation(TestLibraryDependency.ANDROID_X_JUNIT)
     androidTestImplementation(TestLibraryDependency.TEST_RUNNER)
