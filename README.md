@@ -24,7 +24,7 @@ You are free to add any cool features (other than the ones mentioned below) as l
 
 #### First screen: List of recipes
 
-* The list of recipes should be loaded from the [recipes.json](recipes.json) file. You can either store the JSON file in the project and read it in runtime, or make an HTTP request to get the raw file from github.
+* The list of recipes should be loaded from the [recipes.json](app/src/main/assets/recipes.json) file. You can either store the JSON file in the project and read it in runtime, or make an HTTP request to get the raw file from github.
 * The image of each recipe should also be displayed in the list.
 
 #### Second screen: Detail page of a recipe
