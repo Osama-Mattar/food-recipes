@@ -21,7 +21,7 @@ data class Recipe(
     val name: String,
     val products: List<String>,
     val proteins: String,
-    val rating: Int,
+    val rating: Double,
     val ratings: Int,
     val thumb: String,
     val time: String,
