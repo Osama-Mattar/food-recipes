@@ -1,5 +1,7 @@
 package com.mattar.osama_mattar_android_test.model.data
 
+import java.io.Serializable
+
 data class Recipe(
     val calories: String,
     val carbos: String,
@@ -28,4 +30,4 @@ data class Recipe(
     val undeliverable_ingredients: List<String>,
     val user: User,
     val weeks: List<String>
-)
+) : Serializable
