@@ -57,6 +57,8 @@ dependencies {
     kapt(LibraryDependency.GLIDE_COMPILER)
     implementation(LibraryDependency.GLIDE)
     testImplementation(TestLibraryDependency.JUNIT)
+    testImplementation(TestLibraryDependency.COROUTINES_TEST)
+    testImplementation(TestLibraryDependency.TRUTH_TEST)
     androidTestImplementation(TestLibraryDependency.ANDROID_X_JUNIT)
     androidTestImplementation(TestLibraryDependency.TEST_RUNNER)
     androidTestImplementation(TestLibraryDependency.ESPRESSO_CORE)

@@ -11,4 +11,6 @@ object TestLibraryDependency {
     const val TEST_RUNNER = "com.android.support.test:runner:${TestLibraryVersion.TEST_RUNNER}"
     const val ESPRESSO_CORE =
         "com.android.support.test.espresso:espresso-core:${TestLibraryVersion.ESPRESSO_CORE}"
+    const val COROUTINES_TEST = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${CoreVersion.COROUTINES_ANDROID}"
+    const val TRUTH_TEST = "com.google.truth:truth:1.0.1"
 }
