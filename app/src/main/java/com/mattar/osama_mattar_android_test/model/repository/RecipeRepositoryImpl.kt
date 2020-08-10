@@ -12,4 +12,14 @@ class RecipeRepositoryImpl : RecipeRepository {
         return getJsonDataFromAsset().asSequence().filter { (it.id).equals(id) }
             .single()
     }
+
+    companion object {
+        // For Singleton instantiation
+        @Volatile
+        private var instance: RecipeRepositoryImpl? = null
+        fun getInstance() =
+            instance ?: synchronized(this) {
+                instance ?: RecipeRepositoryImpl().also { instance = it }
+            }
+    }
 }
