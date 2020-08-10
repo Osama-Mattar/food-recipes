@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Osama-Mattar-android-test</string>
+    <string name="app_name">Hello fresh</string>
+    <string name="a11y_recipe_item_image" translation_description="Accessibility text for each of the recipe images shown in the 'Recipes list' screens.">Picture of recipe</string>
+    <string name="recipe_detail_image_content_description" translation_description="Content description for the header / hero image that is show at the top of the recipe detail screen.">Image of recipe</string>
 </resources>
