@@ -1,6 +1,6 @@
 package com.mattar.osama_mattar_android_test.model.repository
 
-import com.mattar.osama_mattar_android_test.model.data.Recipe
+import com.mattar.osama_mattar_android_test.model.data.recipe.Recipe
 import com.mattar.osama_mattar_android_test.utilities.getJsonDataFromAsset
 
 class RecipeRepositoryImpl : RecipeRepository {

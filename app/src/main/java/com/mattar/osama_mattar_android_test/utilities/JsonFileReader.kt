@@ -4,7 +4,7 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.google.gson.stream.JsonReader
 import com.mattar.osama_mattar_android_test.HelloFreshApplication
-import com.mattar.osama_mattar_android_test.model.data.Recipe
+import com.mattar.osama_mattar_android_test.model.data.recipe.Recipe
 import java.io.IOException
 
 

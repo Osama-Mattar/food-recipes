@@ -11,4 +11,7 @@
     <dimen name="toolbar_elevation">5dp</dimen>
     <dimen name="margin_small">8dp</dimen>
     <dimen name="recipe_description_min_height">555dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
 </resources>

@@ -11,7 +11,7 @@
 
         <variable
             name="recipe"
-            type="com.mattar.osama_mattar_android_test.model.data.Recipe" />
+            type="com.mattar.osama_mattar_android_test.model.data.recipe.Recipe" />
     </data>
 
     <com.mattar.osama_mattar_android_test.recipeslist.view.customview.MaskedCardView

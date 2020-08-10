@@ -1,4 +1,4 @@
-package com.mattar.osama_mattar_android_test.model.data
+package com.mattar.osama_mattar_android_test.model.data.recipe
 
 import java.io.Serializable
 

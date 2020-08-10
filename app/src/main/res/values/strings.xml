@@ -2,4 +2,13 @@
     <string name="app_name">Hello fresh</string>
     <string name="a11y_recipe_item_image" translation_description="Accessibility text for each of the recipe images shown in the 'Recipes list' screens.">Picture of recipe</string>
     <string name="recipe_detail_image_content_description" translation_description="Content description for the header / hero image that is show at the top of the recipe detail screen.">Image of recipe</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>

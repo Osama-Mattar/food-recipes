@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/hello_fresh_nav_graph"
-    app:startDestination="@id/recipesListFragment">
+    app:startDestination="@id/loginFragment">
 
     <fragment
         android:id="@+id/recipesListFragment"
@@ -26,6 +26,15 @@
         tools:layout="@layout/recipe_details_fragment">
         <argument
             android:name="recipe"
-            app:argType="com.mattar.osama_mattar_android_test.model.data.Recipe" />
+            app:argType="com.mattar.osama_mattar_android_test.model.data.recipe.Recipe" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.mattar.osama_mattar_android_test.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_recipesListFragment"
+            app:destination="@id/recipesListFragment" />
     </fragment>
 </navigation>

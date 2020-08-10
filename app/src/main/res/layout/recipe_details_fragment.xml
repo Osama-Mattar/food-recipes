@@ -5,9 +5,9 @@
 
     <data>
 
-        <import type="com.mattar.osama_mattar_android_test.model.data.Recipe" />
+        <import type="com.mattar.osama_mattar_android_test.model.data.recipe.Recipe" />
 
-        <import type="com.mattar.osama_mattar_android_test.model.data.User" />
+        <import type="com.mattar.osama_mattar_android_test.model.data.recipe.User" />
 
         <variable
             name="viewModel"

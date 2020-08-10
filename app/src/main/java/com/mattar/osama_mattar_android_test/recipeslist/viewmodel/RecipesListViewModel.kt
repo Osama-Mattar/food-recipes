@@ -3,7 +3,7 @@ package com.mattar.osama_mattar_android_test.recipeslist.viewmodel
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mattar.osama_mattar_android_test.model.data.Recipe
+import com.mattar.osama_mattar_android_test.model.data.recipe.Recipe
 import com.mattar.osama_mattar_android_test.model.repository.RecipeRepositoryImpl
 import kotlinx.coroutines.launch
 

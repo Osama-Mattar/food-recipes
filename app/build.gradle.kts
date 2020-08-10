@@ -53,6 +53,7 @@ dependencies {
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
     implementation(LibraryDependency.LIFECYCLE_VIEW_MODEL_KTX)
+    implementation("androidx.annotation:annotation:1.1.0")
     kapt(LibraryDependency.GLIDE_COMPILER)
     implementation(LibraryDependency.GLIDE)
     testImplementation(TestLibraryDependency.JUNIT)

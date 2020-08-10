@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.mattar.osama_mattar_android_test.databinding.ListItemRecipeBinding
-import com.mattar.osama_mattar_android_test.model.data.Recipe
+import com.mattar.osama_mattar_android_test.model.data.recipe.Recipe
 import com.mattar.osama_mattar_android_test.recipeslist.view.RecipesListFragment
 import com.mattar.osama_mattar_android_test.recipeslist.view.RecipesListFragmentDirections
 
