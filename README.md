@@ -1,14 +1,4 @@
-# HelloFresh Dev Team - Mobile Android Developer Test
-
-The goal of this test is to assess your coding skills.
-
-Feel free to add any particular technique or algorithm that you think might enrich the overall quality of the end result. You're allowed to use third party libraries and packages. An effective developer knows what to build and what to reuse, but also how his or her tools work. If you use third party libraries, be prepared to answer some questions about them.
-
-You have 7 days to complete the test.
-
-_Note: While we love open source here at HelloFresh, please do not create a public repo with your test in! This challenge is only shared with people interviewing, and for obvious reasons we'd like it to remain this way._
-
-## Instructions
+# Instructions
 
 1. Create a new branch.
 2. Write your code, in various commits so we can see your development timeline. We won't be looking at the time each task took you. We're much more interested in your train of thought!
