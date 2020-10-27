@@ -5,13 +5,13 @@
 
     <data>
 
-        <import type="com.mattar.osama_mattar_android_test.model.data.recipe.Recipe" />
+        <import type="com.mattar.food_recipes.model.data.recipe.Recipe" />
 
-        <import type="com.mattar.osama_mattar_android_test.model.data.recipe.User" />
+        <import type="com.mattar.food_recipes.model.data.recipe.User" />
 
         <variable
             name="viewModel"
-            type="com.mattar.osama_mattar_android_test.recipedetails.viewmodel.RecipeDetailsViewModel" />
+            type="com.mattar.food_recipes.recipedetails.viewmodel.RecipeDetailsViewModel" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
