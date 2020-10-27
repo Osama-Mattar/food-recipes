@@ -5,7 +5,7 @@ import com.mattar.osama_mattar_android_test.utilities.getJsonDataFromAsset
 
 class RecipeRepositoryImpl(var recipes: MutableList<Recipe>? = mutableListOf()) : RecipeRepository {
     override suspend fun getRecipes(): List<Recipe> {
-        recipes?.let { return ArrayList(it) }
+//        recipes?.let { return ArrayList(it) }
         return getJsonDataFromAsset()
     }
 
