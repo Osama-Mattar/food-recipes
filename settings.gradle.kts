@@ -1,2 +1,2 @@
 include (":app")
-rootProject.name = "Osama-Mattar-android-test"
+rootProject.name = "Food-Recipes"
