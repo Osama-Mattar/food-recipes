@@ -8,6 +8,7 @@ import androidx.core.widget.NestedScrollView
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
 import com.mattar.food_recipes.R
 import com.mattar.food_recipes.databinding.RecipeDetailsFragmentBinding

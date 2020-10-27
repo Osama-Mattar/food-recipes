@@ -57,6 +57,6 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </com.mattar.osama_mattar_android_test.recipeslist.view.customview.MaskedCardView>
+    </com.mattar.food_recipes.recipeslist.view.customview.MaskedCardView>
 
 </layout>

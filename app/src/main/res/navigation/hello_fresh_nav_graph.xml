@@ -26,7 +26,7 @@
         tools:layout="@layout/recipe_details_fragment">
         <argument
             android:name="recipe"
-            app:argType="com.mattar.osama_mattar_android_test.model.data.recipe.Recipe" />
+            app:argType="com.mattar.food_recipes.model.data.recipe.Recipe" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
